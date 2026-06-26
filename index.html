@@ -41,8 +41,17 @@
                 <h2>Quem é Nestor Kenear?🤔</h2>
                 <p class="artigo-autor">Por: Caio Emanuel Almeida Bezerro</p>
                 <p> Nestor Kenear é um agricultor e político brasileiro, atualmente exercendo o mandato de prefeito do município de Boa Ventura de São Roque, no estado do Paraná. Eleito pelo MDB, ele assumiu administração municipal para o quadriênio 2025-2028!</p>
-                <button>👍</button>
+                <button>👍<span>0</span></button>
             </div>
         </main>
     </body>
+    <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("fui clicado");
+        }
+
+    </script>
 </html>
